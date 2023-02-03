@@ -11,5 +11,13 @@
 }
 
 .face:hover {
-    box-shadow: 5px 10px 15px 15px white;
+    box-shadow: 0px 0px 25px 25px white;
+}
+
+.centreImage {
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
 }

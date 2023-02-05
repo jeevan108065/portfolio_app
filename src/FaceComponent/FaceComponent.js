@@ -6,8 +6,13 @@ const FaceComponent = () => {
   const mainShiva = require("../Static/images/ShivaMain.jpg");
   return (
     <div className="face">
-      <div>Shiva Prasaad Pappala</div>
-      <img className="centreImage" src={mainShiva} width="180px"></img>
+      <div style={{ height: "210px", width: "210px" }}>
+        <img
+          className="centreImage"
+          alt="Shiva Prasaad Pappala"
+          src={mainShiva}
+        ></img>
+      </div>
     </div>
   );
 };

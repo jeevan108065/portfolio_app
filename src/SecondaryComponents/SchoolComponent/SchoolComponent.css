@@ -1,0 +1,26 @@
+.schoolPin {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: stretch;
+  box-shadow: 0px 0px 25px 10px rgb(255 255 255 / 69%);
+  animation-name: schoolPinSlideIn;
+  animation-duration: 4s;
+}
+
+@keyframes schoolPinSlideIn {
+  from {
+    left: 50%;
+    background-color: black;
+  }
+  to {
+    left: 75%;
+    background-color: white;
+  }
+}
